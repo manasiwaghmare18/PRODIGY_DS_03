@@ -13,3 +13,5 @@ The data is related with direct marketing campaigns of a Portuguese banking inst
 3) bank-full.csv with all examples and 17 inputs, ordered by date (older version of this dataset with less inputs). 
 4) bank.csv with 10% of the examples and 17 inputs, randomly selected from 3 (older version of this dataset with less inputs). 
 The smallest datasets are provided to test more computationally demanding machine learning algorithms (e.g., SVM). 
+
+# The classification goal is to predict if the client will subscribe (yes/no) a term deposit (variable y).
