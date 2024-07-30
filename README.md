@@ -15,3 +15,26 @@ The data is related with direct marketing campaigns of a Portuguese banking inst
 The smallest datasets are provided to test more computationally demanding machine learning algorithms (e.g., SVM). 
 
 # The classification goal is to predict if the client will subscribe (yes/no) a term deposit (variable y).
+
+# Insights: 
+
+# 1. Model Performance:
+
+1. Both models show good performance with high accuracy on the test set. The model with the entropy criterion (dt1) has a slightly better accuracy compared to the model with the Gini criterion (dt).
+   Class Imbalance:
+
+2. Both models struggle with the minority class (class '1'), as evidenced by lower precision and recall for this class. This indicates that while the models are good at predicting the majority class (class '0'), 
+   they have difficulty identifying the minority class accurately.
+   Feature Importance:
+
+3. Visualizing the decision tree helps in understanding which features are most important in making predictions. The nodes with splits based on specific features will highlight their impact on the model.
+
+# 2. Model Improvement:
+
+Consider tuning hyperparameters further or using techniques such as class balancing (e.g., SMOTE) to improve performance on the minority class.
+Alternative models (e.g., Random Forests, Gradient Boosting) might also provide better performance and handle class imbalance more effectively.
+
+# 3. Final Results:
+
+1. The Decision Tree Classifier with the entropy criterion achieved the highest accuracy on the test set at 90.49%.
+2. Both models show a trade-off between precision and recall, especially for the minority class, indicating potential areas for improvement.
