@@ -1,4 +1,4 @@
-# Prodigy_DS_03  - Decision Tree Classifier 
+# Prodigy_DS_03  - Build a Decision Tree Classifier 
 ![DS 03](https://github.com/user-attachments/assets/5d87c476-3b3d-4694-bbac-c3c63733eb4f)
 
 
